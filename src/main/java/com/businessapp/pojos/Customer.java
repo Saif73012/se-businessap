@@ -27,7 +27,7 @@ public class Customer implements EntityIntf  {
 
 	private String name = null;
 
-	private List<String> contacts = new ArrayList<String>();
+	private static List<String> contacts = new ArrayList<String>();
 
 	private List<LogEntry> notes = new ArrayList<LogEntry>();
 
@@ -63,7 +63,7 @@ public class Customer implements EntityIntf  {
 		return name;
 	}
 
-	public List<String> getContacts() {
+	public static List<String> getContacts() {
 		return contacts;
 	}
 
