@@ -94,4 +94,8 @@ public class Customer implements EntityIntf  {
 		return this;
 	}
 
+	public Customer setNotes( String note ) {
+		this.notes.add(new LogEntry(note));
+		return this;
+	}
 }

@@ -67,7 +67,7 @@ System.out.println(testkunde2.getName());
 		Customer testkunde1 = new Customer(null,"");
 		System.out.println("Id des Objektes: "+ testkunde1.getId());
 		System.out.println();
-		assertNotEquals((null),testkunde1.getId());
+		assertNotEquals(null,testkunde1.getId());
 		
 		Customer testkunde2 = new Customer("","");
 		System.out.println("Id des Objektes: "+testkunde2.getId());
@@ -123,7 +123,7 @@ System.out.println(testkunde2.getName());
 		System.out.println(Customer.getContacts());
 		List<String> test = new ArrayList<String>();
 		test.add("Holga");
-		test.add(0, "Meyer");
+		test.add(0, "");
 		//	System.out.println(test);
 		assertEquals(test, Customer.getContacts());
 	
@@ -133,11 +133,11 @@ System.out.println(testkunde2.getName());
 	
 	public void getContactTest() {
 		
-	Customer testkunde2= new Customer("12","Meyer");
+	Customer testkunde2= new Customer("12","");
 	testkunde2.addContact(testkunde2.getName());
 	List<String> test = new ArrayList<String>();
 	
-	test.add("Meyer");
+	test.add("");
 	test.add("Holga");
 	//System.out.println(test);
 	
@@ -174,5 +174,16 @@ System.out.println(testkunde2.getName());
 		System.out.println(note);
 		assertEquals(" Customer record created.",note);
 	
+	}
+	
+	public void setNotesTest() 
+	{
+		Customer testkunde = new Customer("1","Bob");
+		testkunde.setNotes("");
+		assertEquals("",testkunde.getNotes());
+		
+		Customer testkunde2= new Customer("12","Meyer");
+		testkunde2.setNotes("neues note");
+		assertEquals("neues note",testkunde2.getNotes());
 	}
 }

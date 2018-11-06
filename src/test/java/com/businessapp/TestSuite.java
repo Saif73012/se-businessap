@@ -17,6 +17,7 @@ import com.businessapp.pojos.CustomerTest;
 @SuiteClasses( {
 	AppTest.class,
 	CustomerTest.class
+	
 	//IndividualCustomerTests.class,
 })
 
