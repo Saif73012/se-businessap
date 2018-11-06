@@ -4,6 +4,8 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
+import com.businessapp.pojos.CustomerTest;
+
 
 /**
  * Unit test for simple App.
@@ -14,6 +16,7 @@ import org.junit.runners.Suite.SuiteClasses;
 @RunWith( Suite.class )
 @SuiteClasses( {
 	AppTest.class,
+	CustomerTest.class
 	//IndividualCustomerTests.class,
 })
 

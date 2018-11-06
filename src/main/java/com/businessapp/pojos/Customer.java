@@ -51,7 +51,11 @@ public class Customer implements EntityIntf  {
 		this.notes.add( new LogEntry( "Customer record created." ) );
 	}
 
-
+	public void setId (String id)
+	{
+	//this.id=id;//original
+	this.id=new String(id);
+	}
 	/**
 	 * Public getter/setter methods.
 	 */

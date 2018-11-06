@@ -82,6 +82,7 @@ System.out.println(testkunde2.getName());
 		Customer testkunde = new Customer("21","Meyer");
 		System.out.println("Name des Objektes:");
 		System.out.println(testkunde.getName());
+		//String s2 = testkunde.getName();
 		assertEquals("Meyer",testkunde.getName());
 		Customer testkunde1 = new Customer(null,null);
 		System.out.println("Name des Objektes:");
@@ -92,7 +93,13 @@ System.out.println(testkunde2.getName());
 		System.out.println(testkunde2.getName());
 		assertEquals("",testkunde2.getName());
 		
+		//6.)
+		/*
+		String s1="Meyer";
 		
+		assertEquals(s1,s2);
+		assertThat(s1==s2, is( true ));
+		*/
 	}
 	@Test
 	public void setNameTest() 
