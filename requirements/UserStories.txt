@@ -1,0 +1,85 @@
+F1 User Stories:
+
+Grundbaustein:
+
+US#010.01:Als<Akteur>möchte ich<Intention>.
+US#010.02:Als<Akteur>möchte ich<Intention>,um<Ziel>zu erreichen.
+
+1. Identifizieren Sie 3-5 Akteure in Ihrem Ausleihsystem. Beachten Sie, dass es nicht
+ nur „User“ gibt und auch nicht jeder Interessent eines Angebots zu einem Kunden wird.
+Bedenken Sie umfassend die Abläufe, die in Ihrem System vermerkt und verwaltet werden müssen, damit keine Akteure oder wichtige Abläufe vergessen werden.
+
+
+<anonymer Besucher>
+
+<Kunde>
+
+<Administrator>
+
+<Mitarbeiter>
+
+
+
+
+2.Stellen Sie für jeden Akteur 5-10 User Stories zusammen und notieren Sie diese in der angegebenen Form. Bedenken Sie alle Abläufe, die in Ihrem System verwaltet 
+werden, einschließlich Dingen wie der Anzeige der Kunden?Rechnung, der Anzeige der Monatsabrechnung für den Betreiber, des Vermerks eines defekt zurückgegebenen Ausleihgegenstandes, des Rücksetzens eines Passworts, des Registrierens 
+eines neuen Nutzers.
+
+
+<anonymer Besucher>
+US#010.01: Als <anonymer Besucher> möchte ich <Information über die Produkte haben>
+
+US#010.02: Als <anonymer Besucher> möchte ich <die Wahl haben mich bei der Web-Site zu registrieren >
+
+US#010.03: Als <anonymer Besucher> möchte ich <die Möglichkeit haben mich am Support zu wenden>
+
+US#010.04: Als <anonymer Besucher> möchte ich <die FAQs lesen können um schnelle Antworten zu bekommen>
+
+US#010.05: Als <anonymer Besucher> möchte ich <Information über das Geschäft lesen können> 
+
+
+
+<Kunde>
+US#020.01: Als <Kunde> möchte ich <Information über das Betrieb und Produkte >
+
+US#020.02: Als <Kunde> möchte ich <mich auf der Web-Site registrieren/anmelden können>
+
+US#020.03: Als <Kunde> möchte ich <mein Konto verwalten können>, weil <bei möglichem Vergessen des Password ich mein Password ändern kann>
+
+US#020.04: Als <Kunde> möchte ich <Information über die Kaufoptionen erhalten>
+
+US#020.05: Als <Kunde> möchte ich <die Möglichkeit haben mich am Support zu wenden> , um <bei Problemen nach Hilfe zu fragen>.
+
+US#020.06: Als <Kunde> möchte ich <eine Übersicht über meine Bestellungen/aktuellen Einkauf haben>
+
+US#020.07: Als <Kunde> möchte ich < die möglichkeit haben mein paypal Account mit meinem Konto zu verknüpfen>
+
+US#020.08: Als <Kunde> möchte ich < über den Status meiner Reservierung erfahren >
+
+
+
+<Administrator>
+US#030.01: Als <Administrator> möchte ich <auf die Datenbank des System zugreifen können>
+
+US#030.02: Als <Administrator> möchte ich <auf die Konten der Kunden zugreifen können> , um <bei Problemen das Konto zu verwalten>
+
+US#030.03: Als <Administrator> möchte ich <möchte ich die Web-Site bearbeiten können > , um <die aktuelle Nachrichten,Details zu bearbeiten>
+
+US#030.04: Als <Administrator> möchte ich <auf die CloudGamingPCs zugreifen können>, um <die CloudGamingPc zu warten >
+
+US#030.05: Als <Administrator> möchte ich <die KonsolenAccounts verwalten können>, um < die 4 Spiele im Paket mit hinzuzufügen>. 
+
+
+
+<Mitarbeiter>
+US#040.01: Als <Mitarbeiter> möchte ich <auf die KundenDaten zugreifen könnnen>, um <bei Problemen den Kunden zu kontaktieren>.
+
+US#040.02: Als <Mitarbeiter> möchte ich <den Zahlungsstatus des Kunden sehen können>, um <den Kunden den Produkt-Key freizugeben > oder um <die Konsole lieferbereit zu>
+
+US#040.03: Als <>
+
+
+
+
+3.Checken Sie UserStories.txt in Ihr Repository im Verzeichnis ~/requirements
+ein.

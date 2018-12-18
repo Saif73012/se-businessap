@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@Calculator.css" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.businessapp.fxgui.CalculatorFXMLController">
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@Calculator.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="com.businessapp.fxgui.CalculatorFXMLController">
    <children>
       <GridPane fx:id="keypadGridPane" hgap="4.0" layoutX="46.0" layoutY="80.0" prefHeight="239.0" prefWidth="194.0" vgap="4.0">
          <columnConstraints>
@@ -38,9 +38,9 @@
 
             <Button styleClass="keypad-MRC" text="M+" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="1">
                </Button>
-            <Button styleClass="keypad-MRC" text="MR" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <Button styleClass="keypad-MRC" text="(" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
                </Button>
-            <Button styleClass="keypad-MRC" text="MC" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <Button styleClass="keypad-MRC" text=")" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1">
                </Button>
             <Button styleClass="keypad-operator" text="/" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="1">
                </Button>

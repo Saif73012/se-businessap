@@ -7,7 +7,7 @@ public interface CalculatorGUI_Intf extends FXMLControllerIntf {
 
 	public enum Token {
 		K_VAT,	K_CE,	K_C,	K_BACK,
-		K_MPLUS,K_MR,	K_MC,	K_DIV,
+		K_MPLUS,K_KA,	K_KZ,	K_DIV,
 		K_7,	K_8,	K_9,	K_MUL,
 		K_4,	K_5,	K_6,	K_MIN,
 		K_1,	K_2,	K_3,	K_PLUS,
@@ -16,7 +16,7 @@ public interface CalculatorGUI_Intf extends FXMLControllerIntf {
 
 	final String[] KeyLabels = new String[] {
 		"MwSt",	"CE",	"C",	"<-",
-		"M+",	"MR",	"MC",	"/",
+		"M+",	"(",	")",	"/",
 		"7",	"8",	"9",	"*",
 		"4",	"5",	"6",	"-",
 		"1",	"2",	"3",	"+",

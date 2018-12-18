@@ -30,6 +30,8 @@ public class CalculatorFXMLController implements CalculatorGUI_Intf {
 		{ ".",	Token.K_DOT		},
 		{ "m",	Token.K_VAT		},
 		{ "t",	Token.K_1000	},
+		{ "(", 	Token.K_KA		},
+		{ ")",	Token.K_KZ		}
 	};
 
 	@FXML
