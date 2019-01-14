@@ -56,6 +56,7 @@ US#020.07: Als <Kunde> möchte ich < die möglichkeit haben mein paypal Account mi
 
 US#020.08: Als <Kunde> möchte ich < über den Status meiner Reservierung erfahren >
 
+US#020.09: Als <Kunde> möchte ich <die FAQs lesen können um schnelle Antworten zu bekommen>
 
 
 <Administrator>
@@ -63,7 +64,7 @@ US#030.01: Als <Administrator> möchte ich <auf die Datenbank des System zugreife
 
 US#030.02: Als <Administrator> möchte ich <auf die Konten der Kunden zugreifen können> , um <bei Problemen das Konto zu verwalten>
 
-US#030.03: Als <Administrator> möchte ich <möchte ich die Web-Site bearbeiten können > , um <die aktuelle Nachrichten,Details zu bearbeiten>
+US#030.03: Als <Administrator> möchte ich <die Web-Site bearbeiten können > , um <die aktuelle Nachrichten veröffentlichen,Details zu bearbeiten>
 
 US#030.04: Als <Administrator> möchte ich <auf die CloudGamingPCs zugreifen können>, um <die CloudGamingPc zu warten >
 
@@ -74,12 +75,13 @@ US#030.05: Als <Administrator> möchte ich <die KonsolenAccounts verwalten können
 <Mitarbeiter>
 US#040.01: Als <Mitarbeiter> möchte ich <auf die KundenDaten zugreifen könnnen>, um <bei Problemen den Kunden zu kontaktieren>.
 
-US#040.02: Als <Mitarbeiter> möchte ich <den Zahlungsstatus des Kunden sehen können>, um <den Kunden den Produkt-Key freizugeben > oder um <die Konsole lieferbereit zu>
+US#040.02: Als <Mitarbeiter> möchte ich <den Zahlungsstatus des Kunden sehen können>, um <den Kunden den Produkt-Key freizugeben > oder um <die Konsole lieferbereit zu stellen>
 
-US#040.03: Als <>
+US#040.03: Als <Mitarbeiter> möchte ich <die Möglichkeit haben mich am Administrator zu wenden>, um <bei Kundennachfrage gegenfalls die CloudGamingPCs zu verwalten/warten>
 
+US#040.04: Als <Mitarbeiter> möchte ich <die Website bearbeiten können>, um <die aktuelle Nachrichten veröffentlichen,Details zu bearbeiten>
 
-
+US#040.05: Als <Mitarbeiter> möchte ich <den aktuellen Bestand der Produkte wissen> , um <den aktuellen Bestand in der Seite zu aktualliseren> 
 
 3.Checken Sie UserStories.txt in Ihr Repository im Verzeichnis ~/requirements
 ein.
