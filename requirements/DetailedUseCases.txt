@@ -1,0 +1,76 @@
+﻿UC 01.01 Passwort ändern (Kunde)
+
+Beschreibung:
+Im Anwendungsfall möchte der Akteur sein Passswort ändern.
+
+Beteiligte Akteur:
+Beteiligt ist der Akteur Kunde, ADMIN
+
+Status:
+initial Zustand Version 1
+
+Verwendete Anwendungsfälle:
+keine
+
+Auslöser:
+Grund ist die intention das Passwort zu aktualisieren.
+
+Vorbedingungen:
+Der Kunde muss Angemeldet sein.
+
+Invarianten:
+
+Nachbedingung:
+Der Kunde erhält eine E-Mail in dem er benachrichtig wird, dass sein Passwort geändert wurde.
+
+Standardablauf:
+1. Der Kunde meldet sich an
+2. Der Kunde sieht sein Konto ein 
+3. Der Kunde wählt "Konto bearbeiten" aus
+4. Der Kunde wählt "Passwort ändern" aus
+5. Der Kunde ändert sein Passwort
+6. Der Kunde erhält eine Benachrichtigungs-E-Mail 
+
+Alternative Ablaufschritte:
+
+Der Kunde kann sich nicht anmelden, da er sein Passwort vergessen hat. 
+Der Kunde muss sein Passwort zurücksetzen mithilfe seiner E-Mail Adresse. 
+
+Hinweise:
+keine
+________________________________________________________________________________________
+UC 01.02 am Support wenden (Kunde oder anonymer Besucher)
+
+Beschreibung:
+Im Anwendungsfall möchte sich der Akteur sich beim Support melden
+
+Beteiligte Akteur:
+Beteiligt ist der Akteur anonymer Besucher,Kunde, Mitarbeiter, ADMIN
+
+Status:
+initial Zustand Version 1
+
+Verwendete Anwendungsfälle:
+keine
+
+Auslöser:
+Kunde oder anonymer Besucher hat fragen die nicht in der Website in der aufgelisteten
+FAQ steht oder braucht Hilfe aus einem anderen Grund
+
+Vorbedingung:
+Kunde oder anonymer Besucher müssen ein Formular ausfüllen, welches die Email,Betreff und der Nachricht beinhaltet , damit die Mitarbeiter oder Admins antworten können.
+
+Nachbedingung:
+keine
+
+Standardablauf:
+1. Der Kunde oder anonymer Besucher hat eine Frage oder Problem
+2. Der Kunde oder anonymer Besucher füllt das Formular auf der Website aus
+3. Der Mitarbeiter beantwortet die Frage oder behebt das Problem und schickt eine Antwortsmail.
+
+Alternative Ablaufschritte:
+3. Der Mitarbeiter kann das Problem nicht löst,schickt er eine Mail an den Kunden und leitet die Frage bzw. das Problem weiter an den Admin.
+4. Der Admin behebt das Problem oder beantwortet die Frage und schickt eine Antwortsmail zurück.
+
+Hinweise:
+In der Mail an den Kunden bei dem alternativen Ablauf wird der Kunde oder anonymer Besucher benachrichtigt das die Antwort maximal 5 Werktage dauern kann.
